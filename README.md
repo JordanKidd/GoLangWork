@@ -1,4 +1,4 @@
 GoLangWork
 ==========
 
-Various Python examples
+Various GoLang examples
