@@ -1,4 +1,4 @@
 GoLangWork
 ==========
 
-GoLang 'projects' for learning
+Various Python examples
