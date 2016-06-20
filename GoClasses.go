@@ -8,7 +8,7 @@ import "fmt"
 type Person struct {
     name string
     job string
-    ssn int
+    id int
 } //Adds methods to the objects
 func (p *Person) SayName() {
     fmt.Printf("My name is %v.\n", p.name)
@@ -32,7 +32,7 @@ func main() {
     jordan := new(Person)
     jordan.name = "Jordan"
     jordan.job = "Software Engineer"
-    jordan.ssn = 333224444
+    jordan.id = 333224444
     jordan.SayName()
 
     //'Inherited' class with Person methods
